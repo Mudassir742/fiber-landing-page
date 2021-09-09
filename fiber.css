@@ -42,30 +42,30 @@ a {
     margin: 0 2rem;
 }
 
-.hero-img img {
+.hero-img img,.trial-img img{
     width: 100%;
 }
 
-.hero-content h2 {
+.hero-content h2{
     margin: 1.1rem 0;
     word-spacing: 1px;
 }
 
-.hero-content p {
+.hero-content p,.trial-content p{
     font-size: 1rem;
-    margin-bottom: 1.1rem;
+    margin: 1.1rem 0;
     letter-spacing: 1px;
     color: #545454;
 }
 
-.hero-btn {
+.hero-btn,.trial-btn {
     display: flex;
     flex-direction: column;
     margin-bottom: 1.3rem;
     align-items: center;
 }
 
-.hero-btn button {
+.hero-btn button, .trial-btn button{
     width: 100%;
     padding: 1.1rem 0;
     margin-bottom: .8rem;
@@ -74,7 +74,7 @@ a {
     text-align: center;
     background: #6d00d5;
     border: transparent;
-    border-radius: 5px;
+    border-radius: 6px;
     color: white;
     letter-spacing: 1px;
 }
@@ -144,6 +144,27 @@ a {
     font-size: 1.062rem;
     text-align: center;
 }
+
+.trial-section{
+    color: white;
+    margin: 0 2rem 2rem 2rem;
+    background: #6d00d5;
+    border-radius: 6px;
+}
+
+.trial-container{
+    padding:1.5rem 1.5rem 0 1.5rem;
+}
+
+.trial-content p{
+    color: white;
+}
+
+.trial-btn button{
+    background-color: white;
+    color: #6d00d5;
+}
+
 
 @media only screen and (min-width:375px) {
     .hero-features li span {
