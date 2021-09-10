@@ -220,6 +220,66 @@ a {
     
 }
 
+.footer{
+    width: 100%;
+    background-color:#fbf8f2;
+    padding: 2rem;
+}
+
+.footer-content{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: auto;
+    grid-template-areas: "footer-header" "one" "two" "three" "four";
+    row-gap: 1rem;
+}
+
+.footer-discription{
+    grid-area: footer-header;
+}
+
+.footer-links.one{
+    grid-area: one;
+}
+.footer-links.two{
+    grid-area: two;
+}
+.footer-links.three{
+    grid-area: three;
+}
+.footer-links.four{
+    grid-area: four;
+}
+
+.footer-discription p{
+    margin: 1rem 0;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    color: #545454;
+}
+
+.footer-discription aside{
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    color: #545454;
+}
+
+.footer-links h2{
+    font-size: 1.3rem;
+    margin-bottom: .5rem;
+}
+
+.link-items li{
+    margin-bottom: .4rem;
+}
+.link-items li a{
+    font-size: 1.1rem;
+    color: #545454;
+}
+
+
 @media only screen and (min-width:375px) {
     .hero-features li span {
         font-size: 1.062rem;
