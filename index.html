@@ -30,7 +30,7 @@
                 </ul>
             </nav>
             <div class="menu-btn" onclick="toggleMenu()">
-                <img src="/Assets/Hamburger Menu.svg" alt="menu">
+                <i class="fas fa-bars" id="icon"></i>
             </div>
         </header>
 
@@ -222,17 +222,21 @@
     <script>
         var bodyElement = document.getElementById("body")
         var navbar = document.getElementById("navbar")
+        var icon = document.getElementById("icon")
 
         bodyElement.style.overflowX = "hidden";
 
         function toggleMenu() {
-            console.log("clicked")
             if (bodyElement.classList.contains("menu-inactive")) {
+                icon.classList.remove("fa-bars")
+                icon.classList.add("fa-times")
                 bodyElement.classList.remove("menu-inactive")
                 bodyElement.classList.add("menu-active")
                 bodyElement.style.overflowX = ""
             }
             else if (bodyElement.classList.contains("menu-active")) {
+                icon.classList.remove("fa-times")
+                icon.classList.add("fa-bars")
                 bodyElement.classList.remove("menu-active")
                 bodyElement.classList.add("menu-inactive")
                 setTimeout(() => {

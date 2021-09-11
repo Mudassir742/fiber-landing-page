@@ -96,6 +96,10 @@ a {
     transition: transform .2s ease-in-out;
 }
 
+.menu-btn i {
+    font-size: 2rem;
+}
+
 .hero {
     background: #fbf8f2;
     max-width: 100%;
