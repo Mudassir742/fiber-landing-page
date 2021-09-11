@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.register {
+    padding: 3rem 2rem;
+}
+
+.form {
+    margin: 2.5rem 0;
+}
+
+.form h1 {
+    margin-bottom: 1.5rem;
+}
+
+.form label {
+    display: inline-block;
+    margin-bottom: .5rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.form div:nth-child(3), .form div:nth-child(5), .form div:nth-child(7) {
+    margin-bottom: 1.1rem;
+    padding-right: .4rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid rgb(156, 154, 154);
+    border-radius: 5px;
+}
+
+.email input, .name input, .password input {
+    border: transparent;
+    outline: none;
+    padding: 1rem 0 1rem .4rem;
+}
+
+.form div input::placeholder {
+    font-size: 1rem;
+}
+
+.terms {
+    margin-top: 1.5rem;
+    border: transparent;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.terms input {
+    margin-top: .1rem;
+    margin-right: .6rem;
+}
+
+.terms aside {
+    font-size: 1.062rem;
+    text-align: justify;
+}
+
+.terms a {
+    font-weight: bold;
+}
+
+.form button {
+    margin-top: 2rem;
+    width: 100%;
+    padding: 1rem 0;
+    border: transparent;
+    border-radius: 5px;
+    background-color: #6d00d5;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 1rem;
+    color: white;
+}
+
+.current-user {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.current-user aside {
+    font-size: 1.1rem;
+    margin-bottom: .5rem;
+}
+
+.current-user a {
+    font-size: 1.1rem;
+}
+
+@media only screen and (min-width:375px) {
+    .current-user {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .current-user aside {
+        margin: 0;
+    }
+    .current-user a {
+        display: inline;
+        margin-left: .4rem;
+    }
+}
