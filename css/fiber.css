@@ -385,3 +385,251 @@ a {
         font-size: 1rem;
     }
 }
+
+@media only screen and (min-width:540px) {
+    .header {
+        padding: 2.5rem 2.5rem 0rem 2.5rem;
+    }
+    .header h1 {
+        font-size: 1.5rem;
+    }
+    .nav-items li a, .login-btns li a {
+        font-size: 1.2rem;
+    }
+    .hero-container {
+        margin: 0 2.5rem;
+    }
+    .features {
+        padding: 4rem 2.5rem;
+    }
+    .trial-section {
+        margin: 0 2.5rem 2.5rem 2.5rem;
+    }
+    .trial-container {
+        padding: 2rem 2rem 0 2rem;
+    }
+    .testimonial-container {
+        margin: 0 2.5rem;
+    }
+    .user-info h3 {
+        font-size: large;
+        letter-spacing: 1px;
+    }
+    .user-info h5 {
+        font-size: 1rem;
+        font-weight: bold;
+    }
+    .portfolio-btn button {
+        font-size: 1.1rem;
+        font-weight: bold;
+        margin-top: .8rem;
+    }
+    .footer {
+        padding: 2.5rem;
+    }
+    .footer-content {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-areas: "footer-header footer-header footer-header" "one . two" "three . four";
+    }
+}
+
+@media only screen and (min-width:768px) {
+    .header {
+        padding: 2.5rem 3rem 0rem 3rem;
+    }
+    .header h1 {
+        width: 20%;
+        font-size: 1.7rem;
+    }
+    #navbar {
+        height: fit-content;
+        width: 68%;
+        position: static;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0;
+    }
+    .border {
+        display: none;
+    }
+    .nav-items {
+        margin: 0;
+        width: fit-content;
+        display: flex;
+        align-items: center;
+    }
+    .login-btns {
+        display: flex;
+        align-items: center;
+        width: fit-content;
+    }
+    .nav-items li, .login-btns li {
+        padding: 0;
+        margin: 0;
+        margin-right: .6rem;
+        width: auto;
+    }
+    .nav-items li a, .login-btns li a {
+        font-size: 1.262rem;
+        font-weight: normal;
+    }
+    .login-btns li:nth-child(2) {
+        padding: 1rem .6rem;
+    }
+    .login-btns li:nth-child(2) a {
+        font-weight: bold;
+    }
+    .menu-btn {
+        display: none;
+    }
+    .hero-container {
+        margin: 0 3rem;
+    }
+    .features {
+        padding: 4rem 3rem;
+    }
+    .trial-section {
+        margin: 0 3rem 3rem 3rem;
+    }
+    .trial-container {
+        padding: 2rem 2rem 0 2rem;
+    }
+    .testimonial-container {
+        margin: 0 3rem;
+    }
+    .footer {
+        padding: 3rem;
+    }
+    .footer-content {
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-areas: "footer-header footer-header one two" "three four . .";
+        row-gap: 30px;
+        column-gap: 30px;
+    }
+    .footer-discription aside, .footer-discription p {
+        font-size: 1.162rem;
+    }
+    .footer-links h2 {
+        font-size: 1.362rem;
+        margin-bottom: .6rem;
+    }
+    .link-items li {
+        margin-bottom: .5rem;
+    }
+    .link-items li a {
+        font-size: 1.162rem;
+    }
+}
+
+@media only screen and (min-width:810px) {
+    .hero-container {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 2rem;
+    }
+    .hero-content {
+        width: 50%;
+    }
+    .hero-img {
+        margin-left: 1rem;
+        width: 70%;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .hero-btn {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+    .hero-btn button {
+        width: 55%;
+    }
+    .hero-btn a {
+        margin: 0;
+        padding-bottom: .4rem;
+    }
+    .features-content {
+        margin-top: 2rem;
+        flex-direction: row;
+    }
+    .features-box {
+        align-items: flex-start;
+        width: 33%;
+        margin-right: 1.1em;
+        margin-bottom: 1.6rem;
+    }
+    .features-box p {
+        font-size: 1.162rem;
+        text-align: left;
+    }
+    .trial-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .trial-content {
+        width: 100%;
+        margin-right: 2rem;
+    }
+    .trial-content p {
+        font-size: 1.2rem;
+    }
+    .trial-img {
+        width: 100%;
+    }
+    .trial-btn {
+        margin-top: 1.4rem;
+        align-items: flex-start;
+    }
+    .trial-btn button {
+        width: fit-content;
+        padding: 1rem;
+        border-radius: 8px;
+    }
+}
+
+@media only screen and (min-width:980px) {
+    .header {
+        padding: 2.5rem 3.5rem 0rem 3.5rem;
+    }
+    .nav-items li, .login-btns li {
+        margin-right: .8rem;
+    }
+    .nav-items li a, .login-btns li a {
+        font-size: 1.3rem;
+    }
+    .hero-container {
+        margin: 0 3.5rem;
+    }
+    .features {
+        padding: 4rem 3.5rem;
+    }
+    .trial-section {
+        margin: 0 3.5rem 3.5rem 3.5rem;
+    }
+    .testimonials {
+        margin-top: 4rem;
+    }
+    .testimonial-container {
+        margin: 0 3.5rem;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: auto;
+        column-gap: 1em;
+    }
+    .footer {
+        padding: 3rem 3.5rem;
+    }
+    .footer-discription aside, .footer-discription p {
+        font-size: 1.2rem;
+    }
+    .link-items li {
+        margin-bottom: .6rem;
+    }
+    .link-items li a {
+        font-size: 1.2rem;
+    }
+}
